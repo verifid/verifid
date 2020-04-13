@@ -1,0 +1,25 @@
+name: Projects
+source:
+  - name: facereg
+    link: https://github.com/verifid/facereg
+    description: Python module for face recognition with OpenCV and Deep Learning.
+
+  - name: mocr
+    link: https://github.com/verifid/mocr
+    description: Meaningful Optical Character Recognition from identity cards with Deep Learning.
+
+  - name: ner-d
+    link: https://github.com/verifid/ner-d
+    description: Python module for Named Entity Recognition (NER) using natural language processing.
+
+  - name: graph-vl
+    link: https://github.com/verifid/graph-vl
+    description: Self deployed identity verification layer with GraphQL.
+
+  - name: vl
+    link: https://github.com/verifid/vl
+    description: Self deployed identity verification layer.
+
+  - name: vl-go
+    link: https://github.com/verifid/vl-go
+    description: Go client library around the VerifID identity verification layer API.

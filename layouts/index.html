@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3 class="headline"><strong>{{ .Site.Params.author }}</strong></h3>
+        <h4>Identity verification platform 100% <a href="https://github.com/{{ .Site.Params.Social.Github }}/">open sourced!</a></h4>
+        <h4>VerifID is a collection of projects that aims to make id verification!</h4>
+        <h4><a href="{{ .Site.BaseURL }}projects/">here</a> you can find some of the projects</h4>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
